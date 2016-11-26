@@ -93,3 +93,46 @@ body {
 .box h2{
   color: #777777;
 }
+.about img{
+  border-radius: 5px;
+  float: left;
+  margin-right: 20px;
+  width: 100px;
+}
+.about p{
+  color: #666666;
+  padding-top: 5px;
+}
+.about a:hover, .about a:focus{
+  text-decoration: none;
+}
+.social social{
+  border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    height: 35px;
+    margin: 10px;
+    padding-top: 1px;
+    width: 35px;
+    transition: all .2s ease-in-out;
+}
+.social social:hover{
+  transform: scale(1.2);
+}
+.social .twitter{
+  color: #00aae4;
+}
+.social .facebook{
+  color: #345a9a;
+}
+.social .skype{
+  color: #00a9f5;
+}
+.social .linkedin{
+  color: #007bb7;
+}
+.social .envelope{
+  color: #f24132;
+}
