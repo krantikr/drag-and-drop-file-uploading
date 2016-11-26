@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  background-color: #eeeeee;
+}
+.uploader-container{
+  margin: 25px auto auto;
+  max-width: 700px;
+  padding: 10px;
+}
+.file-uploader-div{
+  border: 1px dashed #7dc5db;
+  margin-top: 20px;
+  padding: 5px;
+  position: relative;
+}
+.file-uploader-div:hover{
+  background-color: #efefef;
+}
+.file-uploader-input{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+.uploader-placeholder{
+  text-align: center;
+}
+.uploader-placeholder h3 {
+  color: #3b7384;
+  font-weight: 100;
+  padding: 60px 0;
+  text-transform: uppercase;
+}
+.file-uploader-content{
+  margin-top: 10px;
+}
+.file-uploader-content .content-div{
+  background-color: #f7f7f7;
+  margin: 1px auto;
+  padding: 5px;
+}
+.file-uploader-content .content-div img{
+  border-radius: 3px;
+  height: 50px;
+  width: 50px;
+}
+.file-uploader-content .content-div name{
+  color: #3b7384;
+  font-weight: 700;
+  margin-left: 8px;
+}
+.file-uploader-content .content-div .fa-trash{
+  color: #a3a3a3;
+  cursor: pointer;
+  float: right;
+  font-size: 24px;
+  padding: 13px;
+}
+.file-uploader-content .content-div .fa-trash:hover{
+  color: #cd4535;
+}
+.file-uploader-content .content-div .fa-download{
+  color: #a3a3a3;
+  cursor: pointer;
+  float: right;
+  font-size: 24px;
+  padding: 13px;
+}
+.file-uploader-content .content-div .fa-download:hover{
+  color: #3b7384;
+}
+
+.title h1{
+  color: #0885aa;
+  text-align: center;
+}
+.title p{
+  border: 1px solid #55cff4;
+  margin: auto;
+  max-width: 400px;
+  width: 100%
+}
+.box{
+  border: 1px solid #efefef;
+  border-radius: 6px;
+  margin: 15px;
+  padding: 10px 20px;
+}
+.box h2{
+  color: #777777;
+}
